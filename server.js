@@ -10,8 +10,8 @@ class HandlerGenerator {
       let username = req.body.username;
       let password = req.body.password;
       // For the given username fetch user from DB
-      let mockedUsername = 'lalitha';
-      let mockedPassword = 'priya@';
+      let mockedUsername = 'diya';
+      let mockedPassword = 'reddy';
   
       if (username && password) {
         if (username === mockedUsername && password === mockedPassword) {
